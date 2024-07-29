@@ -1,0 +1,191 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  overflow: hidden;
+  padding: 100px;
+  text-align: center;
+  background: linear-gradient(30deg, white 30%, black 60%);
+  overflow-y: hidden;
+  /*.moon
+  *  position: absolute
+  *  float: top 
+  *  width: 100px */
+}
+header img {
+  color: black;
+  width: 5%;
+}
+header h1 {
+  font-size: 140px;
+  background: linear-gradient(30deg, black 30%, white 60%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 10px;
+}
+header .route {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header .route p {
+  font-size: 30px;
+  width: 10%;
+}
+header .route .year {
+  font-size: 30px;
+  width: 10%;
+  /*background: linear-gradient(30deg, black 40%, white 90% ) */
+  /*background-clip: text */
+  /*-webkit-text-fill-color: transparent */
+}
+header .route .line {
+  border: 1px black solid;
+  width: 20%;
+  height: 0;
+  position: absolute;
+}
+
+.tentang {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 100px;
+  /*white-space: normal */
+}
+.tentang .side {
+  width: 20%;
+  float: left;
+  height: 20%;
+  border: 5px black solid;
+}
+.tentang .text {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.tentang .text h1 {
+  width: 90%;
+  font-size: 40px;
+}
+.tentang .text h2 {
+  width: 90%;
+  font-size: 30px;
+}
+.tentang .text p {
+  width: 90%;
+  font-size: 20px;
+}
+.tentang .text .pemisah {
+  height: 0;
+  width: 90%;
+  border: 1px black solid;
+}
+.tentang .text a {
+  text-decoration: none;
+  color: black;
+  width: 20%;
+  font-size: 20px;
+}
+
+/*.skill
+ *  display: flex
+ *  flex-wrap: wrap
+ *  padding: 100px
+ *  justify-content: space-around
+ *  .aset
+ *      float: right
+ *      width: 30%
+ *  .list
+ *      width: 70%
+ *      h1
+ *          font-size: 50px
+ *          width: 90%
+ *      li
+ *          font-size: 20px
+ *          list-style: number
+ *          width: 90% */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+}
+#gallery h1 {
+  width: 100%;
+  text-align: center;
+}
+#gallery .pemisah {
+  border: 1px black solid;
+  width: 100%;
+  position: bottom;
+}
+#gallery .containt {
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+}
+#gallery .containt img {
+  width: 100%;
+}
+#gallery .containt p {
+  position: inline;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 150px;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/*@media screen and ( max-width:780px  )
+ *  header
+ *      padding: 50%
+ *      h1
+ *          font-size: 50px
+ *      .route
+ *          p
+ *              font-size: 10px
+ *              width: 10%
+ *          .year
+ *              font-size: 10px
+ *              width: 10%
+ *          .line
+ *              width: 10% *//*# sourceMappingURL=style.css.map */
